@@ -1,8 +1,3 @@
-Hadoop-Programs
-===============
-
-Programs for Hadoop 
-
 Itinerary:
 List of programs and description of what they do, in the order found in the submission folder.
 Each program can be compiled using java. The MapReduce programs need to be jared, while
