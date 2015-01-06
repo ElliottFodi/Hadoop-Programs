@@ -36,6 +36,7 @@ does not need to emit writable objects. Since the reducer is writing to HDFS, th
 emitted does not need to be writable, it just needs a toString method
 
 Hadoop reducer prints several names on the same line:
+
 This program accepts a records with several attributes per line. The program lists the position
 and all of the characters that play in that position, ignoring all other details in the records This
 program shows multiple reducers running and writing to HDFS with the results in the form of a
