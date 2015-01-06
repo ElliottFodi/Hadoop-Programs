@@ -1,4 +1,5 @@
 Itinerary:
+
 List of programs and description of what they do, in the order found in the submission folder.
 Each program can be compiled using java. The MapReduce programs need to be jared, while
 the HBase programs do not need to be jared. The Hadoop programs should be run in Hadoop’s main 
@@ -6,15 +7,19 @@ directory and the HBase programs can be run from any directory.
 
 
 Hadoop average in reducer:
+
 This program demonstrates a function in the reducer.
 
 Hadoop Basic word count:
+
 This program is basic word count, the hello world of Hadoop
 
 Hadoop multiline read:
+
 This program reads passes two lines as a record instead of the default one line
 
 Hadoop pass array to reducer:
+
 This program passes an array from the mapper to the reducer, in order to pass an array the
 ArrayWritable class needs to be extended to specify the type of values stored in the array
 
