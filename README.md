@@ -25,8 +25,7 @@ ArrayWritable class needs to be extended to specify the type of values stored in
 
 Hadoop pass jar
 This program takes a jar file as a command line argument and uses it in the mapper. To do
-this
-a tool runner must be used. The tool runner is defined in the main and the MapReduce
+thisa tool runner must be used. The tool runner is defined in the main and the MapReduce
 configuration and other options are set in the tool runners run method
 
 Hadoop pass object to reducer
