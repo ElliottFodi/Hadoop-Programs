@@ -46,3 +46,12 @@ This program accepts a records with several attributes per line. The program lis
 and all of the characters that play in that position, ignoring all other details in the records This
 program shows multiple reducers running and writing to HDFS with the results in the form of a
 list
+
+HBase add data:
+
+This program adds data to a HBase table, the column qualifiers are made when entering the
+data
+
+HBase create table:
+
+This programs adds a table to HBase with column families
