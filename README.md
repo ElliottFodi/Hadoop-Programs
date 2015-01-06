@@ -3,7 +3,7 @@ Hadoop-Programs
 
 Programs for Hadoop 
 
-Itinerary: 
+Itinerary:
 List of programs and description of what they do, in the order found in the submission folder.
 Each program can be compiled using java. The MapReduce programs need to be jared, while
 the HBase programs do not need to be jared. The Hadoop programs should be run in Hadoop’s main 
