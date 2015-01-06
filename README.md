@@ -19,15 +19,18 @@ This program passes an array from the mapper to the reducer, in order to pass an
 ArrayWritable class needs to be extended to specify the type of values stored in the array
 
 Hadoop pass jar:
+
 This program takes a jar file as a command line argument and uses it in the mapper. To do
 thisa tool runner must be used. The tool runner is defined in the main and the MapReduce
 configuration and other options are set in the tool runners run method
 
 Hadoop pass object to reducer:
+
 This program creates a writable object that can be passed from the mapper to the reducer.
 The writable object is composed of writable primitives.
 
 Hadoop reducer output object:
+
 This program emits a regular Java object in the reducer, this is done to prove that the reducer
 does not need to emit writable objects. Since the reducer is writing to HDFS, the object
 emitted does not need to be writable, it just needs a toString method
