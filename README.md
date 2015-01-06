@@ -47,6 +47,12 @@ and all of the characters that play in that position, ignoring all other details
 program shows multiple reducers running and writing to HDFS with the results in the form of a
 list
 
+Hadoop riot MapReduce program:
+
+This is a Hadoop program I wrote which demonstrates all the Hadoop techniques I learned.
+This program was run on a 15 node Hadoop cluster without any problems. The program
+combines most of the simple programs outlined above to process league of legends matches.
+
 HBase add data:
 
 This program adds data to a HBase table, the column qualifiers are made when entering the
