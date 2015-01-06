@@ -47,7 +47,7 @@ and all of the characters that play in that position, ignoring all other details
 program shows multiple reducers running and writing to HDFS with the results in the form of a
 list
 
-Hadoop riot MapReduce program:
+Hadoop League of Legends Project:
 
 This is a Hadoop program I wrote which demonstrates all the Hadoop techniques I learned.
 This program was run on a 15 node Hadoop cluster without any problems. The program
